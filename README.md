@@ -1,6 +1,6 @@
 # Reddit
 
-This respository will hold tools used to scrape, process, and visualize the posts and comments on multiple subreddits.
+Tools to scrape, process, and visualize the posts and comments on multiple subreddits.
 
 ### Subreddit Post Scraper
 
