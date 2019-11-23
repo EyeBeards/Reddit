@@ -3,7 +3,6 @@ import sqlite3
 import praw
 import time
 
-
 def update_db(feed, records):
     conn = sqlite3.connect('reddit.db')
     c = conn.cursor()
