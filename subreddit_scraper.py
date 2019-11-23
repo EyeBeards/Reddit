@@ -86,7 +86,10 @@ def main():
 
     run = True
     while run:
-        print('timer: {}'.format(datetime.datetime.now().strftime('%H:%M')))
-        timer(15, reddit, subs_list)
+        try:
+            print('timer: {}'.format(datetime.datetime.now().strftime('%H:%M')))
+            timer(15, reddit, subs_list)
+        except:
+            main()
 
 main()
