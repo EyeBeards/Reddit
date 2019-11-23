@@ -6,3 +6,4 @@ Tools to scrape, process, and visualize the posts and comments on multiple subre
 ### Subreddit Post Scraper
 
 This tool periodically makes requests to reddit's API and stores the relevant metdata in a local SQL database.
+
